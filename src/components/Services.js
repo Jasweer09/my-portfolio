@@ -22,16 +22,20 @@ const Services = () => {
                     <p className='heading-text'>Services</p>
                 </motion.div>
                 <motion.div className="services-box" whileInView={fade} initial={{opacity: 0}}>
-                    <div className="services-card">
-                        <BiCodeAlt className='services-icon' />
-                        <p className='services-title'>Web Development</p>
-                        <p className='services-desc'>I use various web technologies to develop attractive,creative, interactive, responsive and functional website layouts. </p>
-                    </div>
-                    <div className="services-card">
-                        <IoColorWandOutline className='services-icon' />
-                        <p className='services-title'>UI Design</p>
-                        <p className='services-desc'>I work with certain design tools to create high-fidelity designs and prototypes. I design accessible and usable products which aid business growth.</p>
-                    </div>
+                <div className="services-card">
+                    <BiCodeAlt className='services-icon' />
+                    <p className='services-title'>AI & Machine Learning</p>
+                    <p className='services-desc'>
+                        I design and deploy machine learning and deep learning models using tools like TensorFlow, PyTorch, and AWS to solve real-world problems in NLP, computer vision, and predictive analytics.
+                    </p>
+                </div>
+                <div className="services-card">
+                    <IoColorWandOutline className='services-icon' />
+                    <p className='services-title'>Data Engineering</p>
+                    <p className='services-desc'>
+                        I build and optimize data pipelines using Python, SQL, and cloud services like AWS SageMaker and GCP to enable efficient model training and real-time AI deployment.
+                    </p>
+                </div>
                 </motion.div>
               </div>
           </div>

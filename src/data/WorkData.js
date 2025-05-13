@@ -1,107 +1,44 @@
 export const ReactData = [
 	{
-		title: "Cerebrio",
-		desc: "An innovative AI chat app which provides an intelligent and interactive chat experience",
-		tech: [
-			"React.js",
-			"Generative-AI",
-			"APIs",
-			"TailwindCss",
-			"Firebase",
-			"Context API",
-		],
-		gitlink: "",
-		site: "//cerebrio-ai.vercel.app/",
+		title: "Student Performance Prediction",
+		desc: "A machine learning model that predicts student performance based on historical academic data.",
+		tech: ["Python", "Scikit-learn", "Pandas", "Flask", "React.js"],
+		gitlink: "//github.com/Jasweer09/mlproject", // Add if available
+		//site: "//mlproject-nb0y.onrender.com/", // Add if deployed
 	},
 	{
-		title: "The Movie Hub",
-		desc: "A movie app for discovering new movies",
-		tech: ["React.js", "Axios", "APIs", "TailwindCss", "Material UI"],
-		gitlink: "//github.com/Pappyjay23/the-movie-hub",
-		site: "//the-movie-hub-v1.netlify.app",
+		title: "Chicken Disease Classification",
+		desc: "A computer vision-based system using deep learning to detect and classify chicken diseases from images.",
+		tech: ["Python", "TensorFlow", "CNN", "React.js"],
+		gitlink: "//github.com/Jasweer09/Chicken_Disease_Classification_Project", // Add if available
+		//site: "//chicken-disease-classification-project-gzgp.onrender.com/", // Add if deployed
 	},
 	{
-		title: "Titan",
-		desc: "A web app to customize your 3D car model",
-		tech: ["React.js", "ThreeJs", "TailwindCss"],
-		gitlink: "//github.com/Pappyjay23/Titan",
-		site: "//titan-motors.vercel.app/",
+		title: "Text Summarization Tool",
+		desc: "An NLP application that automatically generates concise summaries from lengthy text documents.",
+		tech: ["Python", "Hugging Face", "BERT", "Streamlit", "React.js"],
+		gitlink: "//github.com/Jasweer09/Text-Summarization", // Add if available
+		//site: "//text-summarization-b885.onrender.com/", // Add if deployed
 	},
 	{
-		title: "Netflix Clone",
-		desc: "A movie app using the netflix UI with a touch of creativity.",
-		tech: [
-			"React.js",
-			"Firebase",
-			"TailwindCss",
-			"APIs",
-			"Axios",
-			"Context API",
-		],
-		gitlink: "//github.com/Pappyjay23/netflix-clone",
-		site: "//netflix-vp.vercel.app",
+		title: "Real-Time Fraud Detection Engine",
+		desc: "A real-time fraud detection system with Kafka streaming and AWS Lambda for fast, accurate detection.",
+		tech: ["Python", "TensorFlow", "Apache Kafka", "AWS Lambda", "React.js"],
+		gitlink: "", // Add if available
+		site: "", // Add if deployed
 	},
 	{
-		title: "Todo App",
-		desc: "A todo list web app",
-		tech: ["React.js", "Css", "PWAs"],
-		gitlink: "//www.github.com/Pappyjay23/todo-list",
-		site: "//todo-list-v0.netlify.app",
+		title: "NLP-Powered Legal Document Analyzer",
+		desc: "An intelligent system using BERT and Transformers to extract legal clauses and improve processing speed.",
+		tech: ["Python", "BERT", "Hugging Face", "Docker", "React.js"],
+		gitlink: "", // Add if available
+		site: "", // Add if deployed
 	},
 	{
-		title: "Digitaly",
-		desc: "A website for a digital marketing agency",
-		tech: ["React.js", "TailwindCss", "Framer Motion"],
-		gitlink: "//github.com/Pappyjay23/Digitaly",
-		site: "//digitaly.netlify.app/",
-	},
-];
-
-export const VueData = [
-	{
-		title: "DevHire",
-		desc: "An innovative platform that connects tech talents with their potential employers.",
-		tech: [
-			"Vue.js",
-			"Pinia",
-			"APIs",
-			"TailwindCss",
-			"Firebase",
-			"Vue-Router",
-			"Yup",
-			"Axios",
-		],
-		gitlink: "//github.com/Pappyjay23/DevHire",
-		site: "//dev-hire-vp.vercel.app/",
-	},
-	{
-		title: "ArtSphere",
-		desc: "A platform to showcase beautiful image collections.",
-		tech: ["Vue.js", "APIs", "TailwindCss", "Firebase", "Vue-Router"],
-		gitlink: "//github.com/Pappyjay23/ArtSphere",
-		site: "//art-sphere-gallery.vercel.app/",
-	},
-	{
-		title: "Mini Unsplash",
-		desc: "A platform that allows you to enjoy the beauty of high-quality imagery right at your fingertips",
-		tech: ["Vue.js", "APIs", "Sass", "Axios"],
-		gitlink: "",
-		site: "//mini-unsplash-clone.vercel.app/",
-	},
-];
-
-export const ReactNativeData = [
-	{
-		title: "Serenify",
-		desc: "A mobile app combining guided meditation and daily affirmations to inspire and uplift",
-		tech: [
-			"React Native",
-			"Expo",
-			"Expo-Router",
-			"Expo-Vector-Icons",
-			"Native Wind",
-		],
-		gitlink: "//github.com/Pappyjay23/Serenify",
-		app: "//drive.google.com/uc?export=download&id=1WGhO4zmFH6C05_PY9C5CYYEUVNCNVRHJ",
+		title: "Healthcare Recommendation System",
+		desc: "A personalized system that recommends health services based on user profiles and collaborative filtering.",
+		tech: ["Python", "TensorFlow", "AWS SageMaker", "Pandas", "React.js"],
+		gitlink: "", // Add if available
+		site: "", // Add if deployed
 	},
 ];

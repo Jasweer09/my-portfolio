@@ -1,92 +1,95 @@
-import { DiJavascript1 } from "react-icons/di";
-import {
-	FaCss3Alt,
-	FaFigma,
-	FaGithub,
-	FaHtml5,
-	FaReact,
-	FaSass
-} from "react-icons/fa";
-import { RiVuejsLine } from "react-icons/ri";
-import {
-	SiAdobephotoshop,
-	SiFirebase,
-	SiFramer,
-	SiNextdotjs,
-	SiRedux,
-	SiStyledcomponents,
-	SiTailwindcss,
-	SiTypescript
-} from "react-icons/si";
-import { TbBrandReactNative } from "react-icons/tb";
+import { FaPython, FaJava, FaGitAlt, FaAws, FaGithub, FaDocker } from "react-icons/fa";
+import { SiTensorflow, SiPytorch, SiScikitlearn, SiKeras, SiNumpy, SiPandas, SiPostgresql, SiMongodb, SiAmazonaws, SiGooglecloud, SiJupyter, SiKubernetes, SiApachekafka, SiHuggingface, SiApachespark, SiJenkins } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
+import { TbApi } from "react-icons/tb";
 
 export const SkillsData = [
 	{
-		name: "HTML",
-		icon: <FaHtml5 />,
+		name: "Python",
+		icon: <FaPython />,
 	},
 	{
-		name: "CSS",
-		icon: <FaCss3Alt />,
+		name: "Java",
+		icon: <FaJava />,
 	},
 	{
-		name: "Javascript",
-		icon: <DiJavascript1 />,
+		name: "SQL",
+		icon: <GrMysql />,
 	},
 	{
-		name: "TypeScript",
-		icon: <SiTypescript />,
+		name: "TensorFlow",
+		icon: <SiTensorflow />,
 	},
 	{
-		name: "React Js",
-		icon: <FaReact />,
+		name: "PyTorch",
+		icon: <SiPytorch />,
 	},
 	{
-		name: "Next Js",
-		icon: <SiNextdotjs />,
+		name: "Scikit-learn",
+		icon: <SiScikitlearn />,
 	},
 	{
-		name: "Vue Js",
-		icon: <RiVuejsLine />, 
+		name: "Keras",
+		icon: <SiKeras />,
 	},
 	{
-		name: "React Native",
-		icon: <TbBrandReactNative />,
+		name: "Hugging Face",
+		icon: <SiHuggingface />,
 	},
 	{
-		name: "Redux",
-		icon: <SiRedux />,
+		name: "Pandas",
+		icon: <SiPandas />,
 	},
 	{
-		name: "Firebase",
-		icon: <SiFirebase />,
+		name: "NumPy",
+		icon: <SiNumpy />,
 	},
 	{
-		name: "Tailwind",
-		icon: <SiTailwindcss />,
+		name: "AWS",
+		icon: <FaAws />,
 	},
 	{
-		name: "Sass",
-		icon: <FaSass />,
+		name: "Google Cloud",
+		icon: <SiGooglecloud />,
 	},
 	{
-		name: "Styled Components",
-		icon: <SiStyledcomponents />,
+		name: "Docker",
+		icon: <FaDocker />,
 	},
 	{
-		name: "Framer Motion",
-		icon: <SiFramer />,
+		name: "Kubernetes",
+		icon: <SiKubernetes />,
+	},
+	{
+		name: "Jupyter Notebook",
+		icon: <SiJupyter />,
+	},
+	{
+		name: "MongoDB",
+		icon: <SiMongodb />,
+	},
+	{
+		name: "PostgreSQL",
+		icon: <SiPostgresql />,
 	},
 	{
 		name: "Git",
+		icon: <FaGitAlt />,
+	},
+	{
+		name: "GitHub",
 		icon: <FaGithub />,
 	},
 	{
-		name: "Figma",
-		icon: <FaFigma />,
+		name: "Apache Kafka",
+		icon: <SiApachekafka />,
 	},
 	{
-		name: "Photoshop",
-		icon: <SiAdobephotoshop />,
+		name: "Jenkins",
+		icon: <SiJenkins />,
+	},
+	{
+		name: "API Integration",
+		icon: <TbApi />,
 	},
 ];

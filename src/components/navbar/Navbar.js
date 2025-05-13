@@ -56,7 +56,7 @@ const Navbar = ({ nav, handleNav }) => {
 							onClick={handleNav}
 							to='home'
 							className='profile-name'>
-							Peace Jinadu-Paul
+							Jasweer Naidu Tadikonda
 						</Link>
 						<NavLinks handleNav={handleNav} />
 					</div>

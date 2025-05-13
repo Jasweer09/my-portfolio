@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/About.css"
 import { motion } from "framer-motion";
-import ProfileImg from '../images/profile_me.jpg'
+import ProfileImg from '../images/profile_me_1 .jpg'
 
 const About = () => {  
   
@@ -21,9 +21,9 @@ const About = () => {
                   </motion.div>
                   <div className="split-about">
                     <motion.div initial={{x: '-100%', opacity: 0}} whileInView={horizontal} className="about-content">
-                        <p>Hello! My name is Peace and I enjoy creating things that live on the internet. My interest in web development started back in 2018 when I decided to try out for my first school project — turns out putting together a simple website taught me a lot about HTML & CSS! </p>
+                        <p style={{ textAlign: 'justify' }}>My name is Jasweer Naidu Tadikonda, and I am an AI Engineer with over four years of experience in designing, developing, and deploying machine learning and deep learning solutions. I specialize in supervised and unsupervised learning, NLP, computer vision, and real-time analytics. I have hands-on experience with tools like TensorFlow, PyTorch, and AWS, and I’ve applied these skills in industries such as finance, healthcare, and retail. During my time at Infosys and TCS, I built predictive models, automated data pipelines, and integrated scalable AI systems that significantly improved performance and efficiency.</p>
                         <br />
-                        <p> Since then, I've had the opportunity to collaborate with some talented professionals, which has sharpened my skills and helped me grow faster. These days, I'm all about building accessible and inclusive digital products that make a difference. I also enjoy dabbling in design and illustration whenever I can.</p>
+                        <p style={{ textAlign: 'justify' }}> Currently, I am pursuing my Master’s in Computer Science at Northern Arizona University to further enhance my technical expertise and research capabilities in AI. I am passionate about creating intelligent, real-world solutions and continuously exploring new advancements in artificial intelligence, cloud technologies, and MLOps. My goal is to contribute to innovative projects that have a positive and measurable impact on society.</p>
                     </motion.div>
                     <motion.div initial={{x: '50', opacity: 0}} whileInView={horizontal}  className='about-img'>
                         <img src={ProfileImg} alt="Profile" />

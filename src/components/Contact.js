@@ -93,7 +93,7 @@ const Contact = () => {
 							whileInView={verticalLeft}>
 							<div className='contact-heading'>
 								<p>
-									I’m interested in freelance opportunities – especially
+									I’m interested in fulltime opportunities – especially
 									ambitious or large projects. However, if you have other
 									request or question, don’t hesitate to use the form
 								</p>
@@ -102,16 +102,23 @@ const Contact = () => {
 								<p>Say Hello</p>
 								<Link
 									className='hello-links'
-									to='//wa.me/+2348060860565'
+									to='+1 7622470563'
 									target='_blank'>
-									wa.me/pappyjay23
+									+1 7622470563
 								</Link>
 								<a
 									className='hello-links'
-									href='mailto:pjinadu02@gmail.com'
+									href='mailto:jasweertadikonda@gmail.com'
 									target='_blank'
 									rel='noreferrer'>
-									pjinadu02@gmail.com
+									jasweertadikonda@gmail.com
+								</a>
+								<a
+									className='hello-links'
+									href='//www.linkedin.com/in/jasweer-naidu-tadikonda'
+									target='_blank'
+									rel='noreferrer'>
+									LinkedIn Profile
 								</a>
 							</div>
 						</motion.div>
