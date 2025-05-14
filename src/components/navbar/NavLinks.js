@@ -7,8 +7,8 @@ import {BsGithub} from "react-icons/bs"
 const NavLinks = ({handleNav}) => {
   return (
     <ul className='nav-links'>
-        <li onClick={handleNav} ><Link  to="https://www.linkedin.com/in/jasweernaidutadikonda/" target='_blank' className='nav-link'><FaLinkedin /></Link></li>
-        <li onClick={handleNav} ><Link  to="https://github.com/Jasweer09" target='_blank' className='nav-link'><BsGithub /></Link></li>
+        <li onClick={handleNav} ><Link  to="//www.linkedin.com/in/jasweernaidutadikonda/" target='_blank' className='nav-link'><FaLinkedin /></Link></li>
+        <li onClick={handleNav} ><Link  to="//github.com/Jasweer09" target='_blank' className='nav-link'><BsGithub /></Link></li>
         <li onClick={handleNav} ><a  href="mailto:jasweertadikonda@gmail.com" target='_blank' className='nav-link' rel="noreferrer"><BiEnvelope /></a></li>
   </ul>
   )
