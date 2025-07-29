@@ -5,7 +5,7 @@ import { BiDownload } from "react-icons/bi";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import { animateScroll as scroll } from "react-scroll";
 import { motion } from "framer-motion";
-import CV from "../data/Jasweer_Tadikonda_AI_Engineer_Resume.pdf";
+import CV from "../data/Jasweer_Tadikonda_MLEngineer_Resume.pdf";
 
 const HeroSection = ({ nav, handleNav }) => {
 	const scrollToTop = () => {
